@@ -22,4 +22,4 @@ Route::get('/', function () {
 
 /**MOVIES */
 
-Route::get('/movie','Movie@index')->name('movie');
+Route::get('/film','MovieController@index')->name('film');
